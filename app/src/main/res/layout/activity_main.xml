@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="131dp"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/button_background"
+        android:text="@string/info"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:textSize="40sp"
+        android:background="@color/navbar_background"
+        android:text="@string/price_checker_navbar"/>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="131dp"
+        android:layout_height="87dp"
+        android:layout_above="@+id/btn_info"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/black"
+        android:text="@string/scan"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="131dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/btn_info"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="201dp"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/black"
+        android:text="@string/exit"
+        android:textSize="28sp"/>
+
+</RelativeLayout>
